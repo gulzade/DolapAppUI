@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCC9308328B731E800915A2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC9308228B731E800915A2B /* AppDelegate.swift */; };
+		FCC9308528B731E800915A2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC9308428B731E800915A2B /* SceneDelegate.swift */; };
+		FCC9308728B731E800915A2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC9308628B731E800915A2B /* ViewController.swift */; };
+		FCC9308A28B731E800915A2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC9308828B731E800915A2B /* Main.storyboard */; };
+		FCC9308C28B731EA00915A2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC9308B28B731EA00915A2B /* Assets.xcassets */; };
+		FCC9308F28B731EA00915A2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC9308D28B731EA00915A2B /* LaunchScreen.storyboard */; };
+		FCC9309828B758DE00915A2B /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCC9309728B758DE00915A2B /* Roboto-Regular.ttf */; };
+		FCC9309A28B759A400915A2B /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCC9309928B759A400915A2B /* Roboto-Bold.ttf */; };
+		FCC9309C28B7630B00915A2B /* CampaignCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC9309B28B7630B00915A2B /* CampaignCollectionViewCell.swift */; };
+		FCC9309E28B7646A00915A2B /* CampaignData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC9309D28B7646900915A2B /* CampaignData.swift */; };
+		FCC930A028B79B8900915A2B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC9309F28B79B8900915A2B /* Product.swift */; };
+		FCC930A228B7A92600915A2B /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC930A128B7A92600915A2B /* ProductCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FCC9307F28B731E800915A2B /* DolapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DolapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC9308228B731E800915A2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCC9308428B731E800915A2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FCC9308628B731E800915A2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCC9308928B731E800915A2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCC9308B28B731EA00915A2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCC9308E28B731EA00915A2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCC9309028B731EA00915A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC9309728B758DE00915A2B /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "../../../../../Downloads/Roboto (1)/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		FCC9309928B759A400915A2B /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "../../../../../Downloads/Roboto (1)/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		FCC9309B28B7630B00915A2B /* CampaignCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignCollectionViewCell.swift; sourceTree = "<group>"; };
+		FCC9309D28B7646900915A2B /* CampaignData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignData.swift; sourceTree = "<group>"; };
+		FCC9309F28B79B8900915A2B /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		FCC930A128B7A92600915A2B /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCC9307C28B731E800915A2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCC9307628B731E800915A2B = {
+			isa = PBXGroup;
+			children = (
+				FCC9308128B731E800915A2B /* DolapApp */,
+				FCC9308028B731E800915A2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCC9308028B731E800915A2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCC9307F28B731E800915A2B /* DolapApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCC9308128B731E800915A2B /* DolapApp */ = {
+			isa = PBXGroup;
+			children = (
+				FCC9309628B757E800915A2B /* Font */,
+				FCC9308228B731E800915A2B /* AppDelegate.swift */,
+				FCC9308428B731E800915A2B /* SceneDelegate.swift */,
+				FCC9309B28B7630B00915A2B /* CampaignCollectionViewCell.swift */,
+				FCC930A128B7A92600915A2B /* ProductCollectionViewCell.swift */,
+				FCC9308628B731E800915A2B /* ViewController.swift */,
+				FCC9309F28B79B8900915A2B /* Product.swift */,
+				FCC9309D28B7646900915A2B /* CampaignData.swift */,
+				FCC9308828B731E800915A2B /* Main.storyboard */,
+				FCC9308B28B731EA00915A2B /* Assets.xcassets */,
+				FCC9308D28B731EA00915A2B /* LaunchScreen.storyboard */,
+				FCC9309028B731EA00915A2B /* Info.plist */,
+			);
+			path = DolapApp;
+			sourceTree = "<group>";
+		};
+		FCC9309628B757E800915A2B /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				FCC9309928B759A400915A2B /* Roboto-Bold.ttf */,
+				FCC9309728B758DE00915A2B /* Roboto-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCC9307E28B731E800915A2B /* DolapApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC9309328B731EA00915A2B /* Build configuration list for PBXNativeTarget "DolapApp" */;
+			buildPhases = (
+				FCC9307B28B731E800915A2B /* Sources */,
+				FCC9307C28B731E800915A2B /* Frameworks */,
+				FCC9307D28B731E800915A2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DolapApp;
+			productName = DolapApp;
+			productReference = FCC9307F28B731E800915A2B /* DolapApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCC9307728B731E800915A2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FCC9307E28B731E800915A2B = {
+						CreatedOnToolsVersion = 13.2;
+					};
+				};
+			};
+			buildConfigurationList = FCC9307A28B731E800915A2B /* Build configuration list for PBXProject "DolapApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCC9307628B731E800915A2B;
+			productRefGroup = FCC9308028B731E800915A2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCC9307E28B731E800915A2B /* DolapApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCC9307D28B731E800915A2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC9308F28B731EA00915A2B /* LaunchScreen.storyboard in Resources */,
+				FCC9308C28B731EA00915A2B /* Assets.xcassets in Resources */,
+				FCC9309A28B759A400915A2B /* Roboto-Bold.ttf in Resources */,
+				FCC9309828B758DE00915A2B /* Roboto-Regular.ttf in Resources */,
+				FCC9308A28B731E800915A2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCC9307B28B731E800915A2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC9309C28B7630B00915A2B /* CampaignCollectionViewCell.swift in Sources */,
+				FCC9309E28B7646A00915A2B /* CampaignData.swift in Sources */,
+				FCC930A228B7A92600915A2B /* ProductCollectionViewCell.swift in Sources */,
+				FCC9308728B731E800915A2B /* ViewController.swift in Sources */,
+				FCC9308328B731E800915A2B /* AppDelegate.swift in Sources */,
+				FCC9308528B731E800915A2B /* SceneDelegate.swift in Sources */,
+				FCC930A028B79B8900915A2B /* Product.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCC9308828B731E800915A2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCC9308928B731E800915A2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCC9308D28B731EA00915A2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCC9308E28B731EA00915A2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCC9309128B731EA00915A2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCC9309228B731EA00915A2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCC9309428B731EA00915A2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GF9T6UPWP3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DolapApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gkaratas.DolapApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCC9309528B731EA00915A2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GF9T6UPWP3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DolapApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gkaratas.DolapApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCC9307A28B731E800915A2B /* Build configuration list for PBXProject "DolapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC9309128B731EA00915A2B /* Debug */,
+				FCC9309228B731EA00915A2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC9309328B731EA00915A2B /* Build configuration list for PBXNativeTarget "DolapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC9309428B731EA00915A2B /* Debug */,
+				FCC9309528B731EA00915A2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCC9307728B731E800915A2B /* Project object */;
+}
